@@ -11,24 +11,26 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
-    },
-    "Title": {
-      "type": "string"
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "Description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "Price": {
-      "type": "integer"
+      "type": "biginteger",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
