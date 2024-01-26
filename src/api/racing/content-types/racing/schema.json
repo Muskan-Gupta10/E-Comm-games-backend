@@ -13,24 +13,20 @@
   "attributes": {
     "Name": {
       "type": "string",
-      "unique": true,
       "required": true
     },
     "Description": {
-      "type": "text",
-      "required": true
+      "type": "text"
     },
     "Price": {
-      "type": "biginteger",
-      "required": true
+      "type": "biginteger"
     },
     "Image": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
-      "multiple": false,
-      "required": true
+      "multiple": false
     }
   }
 }

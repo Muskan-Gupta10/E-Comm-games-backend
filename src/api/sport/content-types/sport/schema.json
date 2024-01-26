@@ -4,7 +4,7 @@
   "info": {
     "singularName": "sport",
     "pluralName": "sports",
-    "displayName": "Sports"
+    "displayName": "Sport"
   },
   "options": {
     "draftAndPublish": true
@@ -12,25 +12,20 @@
   "pluginOptions": {},
   "attributes": {
     "Name": {
-      "type": "string",
-      "required": true,
-      "unique": true
+      "type": "string"
     },
     "Description": {
-      "type": "text",
-      "required": true
+      "type": "text"
     },
     "Price": {
-      "type": "biginteger",
-      "required": true
+      "type": "biginteger"
     },
     "Image": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
-      "multiple": false,
-      "required": true
+      "multiple": false
     }
   }
 }
